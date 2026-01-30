@@ -13,7 +13,6 @@ Renderer :: struct {
 
     backend: Supported_Renderer_Backends;
     device: *void;
-    resources: *void;
 
     init_device: (*Renderer, *Allocators) -> bool;
     cleanup_device: (*Renderer);
