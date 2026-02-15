@@ -15,7 +15,7 @@
 
     set_build_options_dc(.{
                            output_path = "build",
-                           output_executable_name = "alc"});
+                           output_executable_name = "demo"});
 }
 
 #import "Compiler";

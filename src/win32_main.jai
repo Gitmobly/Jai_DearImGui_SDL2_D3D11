@@ -78,7 +78,7 @@ init_window :: () -> bool, *SDL_Window {
     SDL_Init(SDL_INIT_VIDEO);
 
     window_flags := cast(SDL_WindowFlags)(SDL_WINDOW_SHOWN | SDL_WINDOW_RESIZABLE | SDL_WINDOW_ALLOW_HIGHDPI);
-    window := SDL_CreateWindow("A Lost Composer",
+    window := SDL_CreateWindow("Demo",
                                SDL_WINDOWPOS_UNDEFINED, SDL_WINDOWPOS_UNDEFINED, DEFAULT_WIDTH, DEFAULT_HEIGHT,
                                window_flags);
 
